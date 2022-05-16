@@ -1,0 +1,77 @@
+.App {
+    font-family: sans-serif;
+    background-image: url(../../public/back_logo_.png);
+    z-index: 0;
+    height:600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+  }
+  
+  /* .btn {
+    width: 125px;
+    background: rebeccapurple;
+    color: rgb(221, 189, 253);
+    padding: 8px;
+    margin-right: 8px;
+    border-radius: 3px;
+    border: none;
+  } */
+  .totalbutton {
+    margin-left: 500px !important;
+  }
+  .btn strong {
+    color: #fff;
+  }
+  
+  .btn-asc {
+    cursor: n-resize !important;
+  }
+  
+  .btn-desc {
+    cursor: s-resize !important;
+  }
+  
+  .btn[data-state="asc"] {
+    cursor: n-resize !important;
+  }
+  
+  .btn[data-state="desc"] {
+    cursor: s-resize !important;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th {
+    color: rebeccapurple;
+    font-size: 0.7em;
+    font-weight: 800;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  
+  table th,
+  td {
+    padding: 8px;
+  }
+  
+  table tr:nth-child(even) {
+    /* background: rgb(250, 244, 255); */
+  }
+  
+  .bsearch{
+    width: 15% !important;
+  }
+
+  .allButton{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+	align-content: center;
+  background-color: none !important;
+}
