@@ -26,7 +26,7 @@ export default function NewFilter() {
   
 
     const filteredRecords = records
-        .filter((record) => record.club.startsWith(search))
+        .filter((record) => record.club.toLowerCase().startsWith(search.toLowerCase()))
         .sort((a, b) =>
             (a[filter.field] > b[filter.field])
                 ? (filter.order === 'ASC') ? 1 : -1
